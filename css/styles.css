@@ -1,0 +1,26 @@
+body {
+  width: auto;
+}
+
+.header img {
+  width: 100%;
+}
+
+.buttonSection {
+  background-color: rgb(63, 63, 63);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 5px;
+}
+
+.sidebarForm {
+  border-left: 1px solid grey;
+}
+
+.gifArea {
+  background-color: rgb(211, 211, 211);
+}
