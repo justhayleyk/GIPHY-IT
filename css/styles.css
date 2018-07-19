@@ -1,5 +1,7 @@
 body {
   width: auto;
+  background-color: #7a9bd86e;
+  padding-bottom: 100px;
 }
 
 .header img {
@@ -13,14 +15,35 @@ body {
   margin-bottom: 15px;
 }
 
+.buttonSection p {
+  color: white;
+}
+
 button {
   margin: 5px;
 }
 
-.sidebarForm {
-  border-left: 1px solid grey;
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  column-count: 2;
+  column-gap: 0px;
 }
 
-.gifArea {
-  background-color: rgb(211, 211, 211);
+#photos img {
+  width: 450px;
+  height: 100%;
+  margin-top: 15px;
+  border: 5px solid white;
+  box-shadow: 10px 10px 36px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+
+.gifs-load-here p {
+  text-align: center;
 }

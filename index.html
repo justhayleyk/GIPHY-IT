@@ -6,24 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Real House Wives Laughs</title>
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <!-- Style Sheet -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="header">
-    <h1>Let the Laughs Begin</h1>
     <img src="images/RH-Header.png" alt="">
   </div>
   <section class="buttonSection">
     <div class="container ">
+      <!-- Row 1 -->
       <div class="row">
-        <div class="col-md-10">
-          <div class="giphyButtons">
-          </div>
+        <div class="col-md-8">
+          <p>Click on a button to load the GIFs or add your own Real House Wives Topic to the list.</p>
+          <div class="giphyButtons"></div>
+        </div>
+        <div class="col-md-4">
+          <form>
+            <div class="inputForm form-inline">
+              <p>Want a different RHO Show Gif?</p>
+              <input class="form-control" id="userAdded" type="text">
+              <input class="btn btn-outline-light" id="userInput" type="button" value="submit">
+            </div>
+
+          </form>
+
         </div>
       </div>
     </div>
@@ -32,19 +46,13 @@
 
 
 
-  <div class="container">
+  <div id="photos" class="container dynamic">
     <div class="row">
-      <div class="col-md-8 gifArea">
+      <div class="col gifArea">
         <div class="gifs-load-here"></div>
       </div>
-      <div class="col-md-4 sidebarForm">
-        <div class="inputForm">
-          <p>Want a different RHO Show Gif?</p>
-          <input id="userAdded" type="text">
-          <input id="userInput" type="button" value="submit">
-        </div>
-      </div>
     </div>
+  </div>
 
 
   </div>
