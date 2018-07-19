@@ -23,10 +23,8 @@ button {
   margin: 5px;
 }
 
-#photos {
-  /* Prevent vertical gaps */
+/* #photos {
   line-height: 0;
-
   -webkit-column-count: 3;
   -webkit-column-gap: 0px;
   -moz-column-count: 3;
@@ -42,7 +40,7 @@ button {
   border: 5px solid white;
   box-shadow: 10px 10px 36px -9px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
-}
+} */
 
 .gifs-load-here p {
   text-align: center;

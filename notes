@@ -1,4 +1,26 @@
-data-still="https://media2.giphy.com/media/8rFQp4kHXJ0gU/200_s.gif" 
+      1  var gridRow = 
+      2  var gridCol = 
 
+      3  var showDiv = 
+      4  var showGIF = 
+      5  var cardBody = ;
+      6  var p = 
 
-data-animate="https://media2.giphy.com/media/8rFQp4kHXJ0gU/200.gif"
+      
+      
+
+        showDiv.append(cardBody);
+        cardBody.append(p);
+        showDiv.prepend(showGIF);
+        $('.gifs-load-here').append(showDiv);
+
+        gridRow.prepend(gridCol)
+        gridCol.append(showDiv)
+        showDiv.append(showGIF)
+        showGIF.append(cardBody)
+        cardBody.append(p)
+        
+        
+
+        $('.gifs-load-here').append(gridRow);
+
