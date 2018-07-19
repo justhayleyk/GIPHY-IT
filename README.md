@@ -2,7 +2,7 @@
 
 [Click here to view](https://copperco.github.io/GIPHY-IT/index.html)
 
-![Site Preview](/assets/images/RHGitPreview.png)
+![Site Preview](/assets/images/RHGifPreview.png)
 
 I used the GIPHY API to make a dynamic web page that populates with gifs of your choice. I have styled it with a Real House Wives theme.
 
