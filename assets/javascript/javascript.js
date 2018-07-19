@@ -46,14 +46,21 @@ $('document').ready(function() {
       var results = response.data;
       $('.gifs-load-here').empty();
 
-      results.forEach(function(result) {
-        output =
+      var output = '';
+
+      results.forEach(result => {
+        output +=
           "<div class='card' style='width: 18rem;'>" +
           "<img class='card-img-top' src='" +
+          result.images.fixed_height_still.url +
+          "'data-still='" +
+          result.images.fixed_height_still.url +
+          "'data-animate='" +
           result.images.fixed_height.url +
+          "'data-state='still'" +
           "' alt='Card image cap'>" +
           "<div class='card-body'>" +
-          "<p class='card-text'> This Giphy rating is " +
+          "<p class='card-text'> Giphy Rating: " +
           result.rating +
           '</p> </div> </div>';
       });
@@ -61,6 +68,8 @@ $('document').ready(function() {
       $('.gifs-load-here').html(output);
     });
   }
+
+  $('.gifs-load-here').on('click', 'img', animateGif);
 
   function animateGif() {
     var state = $(this).attr('data-state');

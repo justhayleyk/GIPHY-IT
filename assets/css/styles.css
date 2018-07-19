@@ -23,25 +23,6 @@ button {
   margin: 5px;
 }
 
-/* #photos {
-  line-height: 0;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 0px;
-  -moz-column-count: 3;
-  -moz-column-gap: 0px;
-  column-count: 2;
-  column-gap: 0px;
-}
-
-#photos img {
-  width: 450px;
-  height: 100%;
-  margin-top: 15px;
-  border: 5px solid white;
-  box-shadow: 10px 10px 36px -9px rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-} */
-
 .gifs-load-here p {
   text-align: center;
 }
